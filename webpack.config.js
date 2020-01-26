@@ -23,6 +23,10 @@ module.exports = {
 						loader: "html-loader"
 					}
 				]
+			},
+			{
+				test: /\.scss$/i,
+				use: ["style-loader", "css-loader", "sass-loader"]
 			}
 		]
 	},
