@@ -8,7 +8,7 @@ const Counter = () => {
 	const dispatch = useDispatch();
 	return (
 		<div>
-			<h1>Woodcutting {counter}</h1>
+			<h1>Mining {counter}</h1>
 			<button onClick={() => dispatch(increment(1))}>+</button>
 			<button onClick={() => dispatch(decrement(2))}>-</button>
 			{isLogged ? <h3>Logged in</h3> : <h3>Logged out</h3>}
