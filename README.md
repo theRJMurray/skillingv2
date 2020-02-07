@@ -1,5 +1,5 @@
+`npm install`
 `npm start`
-
-or don't
-
-`I don't care`
+`stand up from chair`
+`spin around 3 times`
+`localhost:3000`
